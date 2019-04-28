@@ -13,8 +13,8 @@ class SubBot:
     bellButtonClick = "Bell[1].click();"    
     
     url = "https://www.youtube.com/user/PewDiePie"
-    listOfBrowser = ['start firefox '+url,'start chrome '+url]
-    listOfCommand = ['i','j']
+    listOfBrowser = ['start chrome '+url,'start firefox '+url]
+    listOfCommand = ['j','i']
 
     waitTime = 1
     flag = True
