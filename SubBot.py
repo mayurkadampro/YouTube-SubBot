@@ -1,5 +1,5 @@
 '''
-auther : mighty ghost hack
+auther : mighty ghost hack - https://www.youtube.com/mightyghosthack
 Note : this script works only on windows operating system.
 
 '''
