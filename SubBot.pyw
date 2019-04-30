@@ -74,6 +74,11 @@ class SubBot:
                     if process.returncode == 1:
                         # once we now the command is not avaliable so there is not point to perform next operation
                         # so we skip those step by continue keyword.
+                        # also increment the count variable by 1
+                        # and check count is equal to len of listofbrowser length
+                        # which means both command are not working on cmd
+                        # not working in the sense both browser are not installed on his pc
+                        # so we set flag value to false so it will quit from the loop
                         self.count = self.count + 1
                         if self.count == len(self.listOfBrowser):
                             self.flag = False;
