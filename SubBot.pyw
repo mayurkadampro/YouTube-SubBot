@@ -5,7 +5,6 @@ Note : this script works only on windows operating system.
 '''
 
 import socket # it helps to check Internet Coneection.
-import webbrowser as wb # its help to redirect into channel URL.
 import pyautogui # its use for keyboard inputs.
 import time # use for add delay in between inputs.
 import subprocess # to run the cmd command.
