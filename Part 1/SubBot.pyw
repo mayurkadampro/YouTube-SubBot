@@ -1,5 +1,5 @@
 '''
-auther : mighty ghost hack - https://www.youtube.com/mightyghosthack
+auther : mighty ghost hack - https://www.youtube.com/channel/UChhmUW7zkbwWF2SEbOHiSdA?sub_confirmation=1
 Note : this script works only on windows operating system.
 
 '''
@@ -18,7 +18,7 @@ class SubBot:
     bellButtonClick = "Bell[1].click();"    
 
     # channel url 
-    url = "https://www.youtube.com/mightyghosthack"
+    url = "https://www.youtube.com/channel/UChhmUW7zkbwWF2SEbOHiSdA?sub_confirmation=1"
     
     # store command code list in order to perform.
     listOfBrowser = ['start chrome '+url,'start firefox '+url]
